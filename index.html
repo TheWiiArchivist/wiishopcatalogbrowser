@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+    var musc = new Audio("music/shop_bgm_loop.wav");
+    musc.currentTime=0;
+      </script>
+      <script>function playmusic(){fadeinbgm(); document.getElementById("bgmplr").href="javascript:pausemusic();"; document.getElementById("bgmplr").innerHTML="Pause BGM"; musc.play();  musc.volume="0.0"; };</script>
+      <script>function pausemusic(){document.getElementById("bgmplr").href="javascript:playmusic();"; document.getElementById("bgmplr").innerHTML="Play BGM";  musc.pause();  musc.volume="0.8"; };</script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Browse the full Wii Shop Catalog with manuals and more! - ChrisplayzWii</title>
+  <link rel="shortcut icon" href="/chris.png" /> 
+  <meta name="description" content="Browse the full catalog of the Wii Shop Channel prior to shutdown and view the prices, the more info, the manuals and more!">
+  <meta name="keywords" content="Wii Shop Channel title database, Wii Shop Channel title ids, Wii Shop Title ID, Wii Shop Channel Titles, ChrisplayzWii's projects, ChrisplayzYT, ChrisplayzWii">
+  <meta name="author" content="ChrisplayzWii">
+  <meta property="og:image" content="/chris.png" />
+  <meta property="og:image:width" content="80" />
+  <meta property="og:image:height" content="80" />
+ <style>
+  * {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+    overflow:hidden;
+    font-family: 'Wii NTLG PGothic JPN Regular';
+		scroll-behavior:smooth;
+		transition:.2s ease-in-out;
+  }
+  
+	@font-face {
+		font-family: 'Wii NTLG PGothic JPN Regular';
+			/* wii shop font from: https://github.com/amarillonmc/MSE201_w_ygos10/blob/master/font/ZENTemplate/FOT-Rodin%20Pro%20M.ttf */
+			/* the closest font to wii shops font in google fonts is Noto Sans JP */
+		src: url("font/FOT-Rodin\ Pro\ M.ttf");
+	}
+	::selection {
+color: #323232;
+background: #34BEED;
+}
+::-moz-selection {
+color: #323232;
+background:#34BEED;
+}
+  body {
+    position:absolute;top:0;left:0;width:100%;height:100%;z-index:-1;display:block;background-color:#323232;color:#323232;
+  }
+  iframe {
+    background-color:#FFF; left:0;width:100%; height:100vh; margin:auto;z-index:1;display:block;border:none;outline:none;
+  }
+  #quickbar {
+  height:30px;
+  width:100%;
+  background-color:#f0f0f0;
+  display:block;
+  padding-left:5px;
+  padding-right:5px;
+  padding-top:0;
+  padding-bottom:0;
+  line-height:27px;
+  font-weight:bold;
+  }
+  #quickbar a {
+    color:#FFF;
+    position:relative;
+    top:0;
+    display:inline-block;
+    text-decoration: none;
+    border-radius:8px;
+    border:1px solid #FFF;
+    background-color:#34BEED;
+    padding-right:5px;
+    padding-left:5px;
+    transform:scale(1);
+  }
+  #quickbar a:hover {
+    border-radius:8px;
+    background-color:#1ba3d1;
+    transform:translate(1px);
+  }
+  #quickbar a:active {
+    transform:scale(0.9);
+  }
+  </style>
+</head>
+<body>
+<div id="quickbar">
+<a href="javascript:playmusic();" id="bgmplr">Play BGM</a>
+<a href="javascript:reloadiframe();">Reload/Choose another catalog</a>
+</div>
+  <iframe src="welcome.html" id="fram" frameborder="0"></iframe>
+  
+
+  <script>
+    function reloadiframe() {
+document.getElementById("fram").src="reload.html";
+setTimeout(finishreld,400);
+    }
+    function finishreld() {
+document.getElementById("fram").src="welcome.html";
+    }
+    function fadeinbgm() {
+  musc.volume="0.0";
+  setTimeout(fade2,10);
+}
+function fade2() {
+  musc.volume="0.1";
+  setTimeout(fade3,10);
+}
+function fade3() {
+  musc.volume="0.2";
+  setTimeout(fade4,10);
+}
+function fade4() {
+  musc.volume="0.3";
+  setTimeout(fade5,10);
+}
+function fade5() {
+  musc.volume="0.4";
+  setTimeout(fade6,10);
+}
+function fade6() {
+  musc.volume="0.5";
+  setTimeout(fade7,10);
+}
+function fade7() {
+  musc.volume="0.6";
+  setTimeout(fade8,10);
+}
+function fade8() {
+  musc.volume="0.7";
+  setTimeout(fade9,10);
+}
+function fade9() {
+  musc.volume="0.8";
+}
+
+function fadeoutbgm() {
+  musc.volume="0.8";
+  setTimeout(fadeo2,10);
+}
+function fadeo2() {
+  musc.volume="0.7";
+  setTimeout(fadeo3,10);
+}
+function fadeo3() {
+  musc.volume="0.6";
+  setTimeout(fadeo4,10);
+}
+function fadeo4() {
+  musc.volume="0.5";
+  setTimeout(fadeo5,10);
+}
+function fadeo5() {
+  musc.volume="0.4";
+  setTimeout(fadeo6,10);
+}
+function fadeo6() {
+  musc.volume="0.3";
+  setTimeout(fadeo7,10);
+}
+function fadeo7() {
+  musc.volume="0.2";
+  setTimeout(fadeo8,10);
+}
+function fadeo8() {
+  musc.volume="0.1";
+  setTimeout(fadeo9,10);
+}
+function fadeo9() {
+  musc.volume="0.0";
+}
+  </script>
+</body>
+</html>

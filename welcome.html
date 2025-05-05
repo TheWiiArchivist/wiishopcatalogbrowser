@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Browse the full Wii Shop Catalog with manuals and more! - ChrisplayzWii</title>
+  <link rel="shortcut icon" href="/chris.png" /> 
+  <meta name="description" content="Browse the full catalog of the Wii Shop Channel prior to shutdown and view the prices, the more info, the manuals and more!">
+  <meta name="keywords" content="Wii Shop Channel title database, Wii Shop Channel title ids, Wii Shop Title ID, Wii Shop Channel Titles, ChrisplayzWii's projects, ChrisplayzYT, ChrisplayzWii">
+  <meta name="author" content="ChrisplayzWii">
+  <meta property="og:image" content="/chris.png" />
+  <meta property="og:image:width" content="80" />
+  <meta property="og:image:height" content="80" />
+<style>
+   button {
+    color:#FFF;
+    position:relative;
+    top:0;
+    display:inline-block;
+    text-decoration: none;
+    border-radius:8px;
+    border:1px solid #FFF;
+    background-color:#34BEED;
+    padding-right:5px;
+    padding-left:5px;
+    transform:scale(1);
+    margin:3px;
+  }
+  button:hover {
+    border-radius:8px;
+    background-color:#1ba3d1;
+    transform:translate(1px);
+    cursor:pointer;
+  }
+  button:active {
+    transform:scale(0.9);
+  }
+</style>
+  <link rel="stylesheet" href="oss/oss/common/css/oss.css">
+</head>
+<body  oncontextmenu="event.preventDefault();" style="text-align:center;">
+ <script>
+  function chooseUS() {
+// United States/US titles!
+window.location.href="oss/serv/B_04.jsp_country=US&p=00";
+}
+function chooseUK() {
+// United Kingdom/UK titles!
+window.location.href="oss/serv/B_04.jsp_country=GB&p=00";
+}
+function chooseUK() {
+// Australia titles
+window.location.href="oss/serv/B_04.jsp_country=AU&p=00";
+}
+function chooseJA() {
+// Japan titles!
+window.location.href="oss/serv/B_04.jsp_country=JP&p=00";
+
+}
+ </script>
+<h2 style="color:#34BEED;">Welcome to ChrisplayzWii's Wii Shop Catalog browser!</h2>
+<br>
+<h3 style="color:#ACACAC;">Choose a catalog:</h3>
+<a href="javascript:chooseUS();"><button>US (United States)</button></a>
+<br>
+<a href="javascript:chooseUK();"><button>UK/GB (United Kingdom)</button></a>
+<br>
+<a href="javascript:chooseJA();"><button>JA (Japan)</button></a>
+
+
+</body>
+</html>
