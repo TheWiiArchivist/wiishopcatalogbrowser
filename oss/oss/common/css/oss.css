@@ -1,0 +1,1273 @@
+
+
+	* {
+		margin:0;
+		padding:0;
+		box-sizing:border-box;
+		font-family: 'Wii NTLG PGothic JPN Regular';
+		font-weight:bolder;
+		scroll-behavior:smooth;
+		transition:.2s ease-in-out;
+	}
+	@font-face {
+		font-family: 'Wii NTLG PGothic JPN Regular';
+			/* wii shop font from: https://github.com/amarillonmc/MSE201_w_ygos10/blob/master/font/ZENTemplate/FOT-Rodin%20Pro%20M.ttf */
+			/* the closest font to wii shops font in google fonts is Noto Sans JP */
+		src: url("../../../../font/FOT-Rodin\ Pro\ M.ttf");
+	}
+	::selection {
+color: #323232;
+background: #34BEED;
+}
+::-moz-selection {
+color: #323232;
+background:#34BEED;
+}
+#regularTitle1,
+#regularTitle2,
+#regularTitle3,
+#regularTitle4,
+#regularTitle5,
+#regularTitle6,
+#regularTitle7,
+#regularTitle8,
+#regularTitle9,
+#regularTitle10,
+#regularTitle11,
+#regularTitle12,
+#regularTitle13,
+#regularTitle14,
+#regularTitle15,
+#regularTitle16,
+#regularTitle17,
+#regularTitle18,
+#regularTitle19,
+#regularTitle20,
+#regularTitle21,
+#regularTitle22,
+#regularTitle23,
+#regularTitle24,
+#regularTitle25,
+#regularTitle26,
+#regularTitle27,
+#regularTitle28,
+#regularTitle29,
+#regularTitle30,
+#regularTitle31,
+#regularTitle32,
+#regularTitle33,
+#regularTitle34,
+#regularTitle35,
+#regularTitle36,
+#regularTitle37,
+#regularTitle38,
+#regularTitle39,
+#regularTitle40,
+#regularTitle41,
+#regularTitle42,
+#regularTitle43,
+#regularTitle44,
+#regularTitle45,
+#regularTitle46,
+#regularTitle47,
+#regularTitle48,
+#regularTitle49,
+#regularTitle50,
+#regularTitle51,
+#regularTitle52,
+#regularTitle53,
+#regularTitle54,
+#regularTitle55,
+#regularTitle56,
+#regularTitle57,
+#regularTitle58,
+#regularTitle59,
+#regularTitle60,
+#regularTitle61,
+#regularTitle62,
+#regularTitle63,
+#regularTitle64,
+#regularTitle65,
+#regularTitle66,
+#regularTitle67,
+#regularTitle68,
+#regularTitle69,
+#regularTitle70,
+#regularTitle71,
+#regularTitle72,
+#regularTitle73,
+#regularTitle74,
+#regularTitle75,
+#regularTitle76,
+#regularTitle77,
+#regularTitle78,
+#regularTitle79,
+#regularTitle80,
+#regularTitle81,
+#regularTitle82,
+#regularTitle83,
+#regularTitle84,
+#regularTitle85,
+#regularTitle86,
+#regularTitle87,
+#regularTitle88,
+#regularTitle89,
+#regularTitle90,
+#regularTitle91,
+#regularTitle92,
+#regularTitle93,
+#regularTitle94,
+#regularTitle95,
+#regularTitle96,
+#regularTitle97,
+#regularTitle98,
+#regularTitle99,
+#regularTitle100,
+#regularTitle101,
+#regularTitle102,
+#regularTitle103,
+#regularTitle104,
+#regularTitle105,
+#regularTitle106,
+#regularTitle107,
+#regularTitle108,
+#regularTitle109,
+#regularTitle110,
+#regularTitle111,
+#regularTitle112,
+#regularTitle113,
+#regularTitle114,
+#regularTitle115,
+#regularTitle116,
+#regularTitle117,
+#regularTitle118,
+#regularTitle119,
+#regularTitle120,
+#regularTitle121,
+#regularTitle122,
+#regularTitle123,
+#regularTitle124,
+#regularTitle125,
+#regularTitle126,
+#regularTitle127,
+#regularTitle128,
+#regularTitle129,
+#regularTitle130,
+#regularTitle131,
+#regularTitle132,
+#regularTitle133,
+#regularTitle134,
+#regularTitle135,
+#regularTitle136,
+#regularTitle137,
+#regularTitle138,
+#regularTitle139,
+#regularTitle140,
+#regularTitle141,
+#regularTitle142,
+#regularTitle143,
+#regularTitle144,
+#regularTitle145,
+#regularTitle146,
+#regularTitle147,
+#regularTitle148,
+#regularTitle149,
+#regularTitle150,
+#regularTitle151,
+#regularTitle152,
+#regularTitle153,
+#regularTitle154,
+#regularTitle155,
+#regularTitle156,
+#regularTitle157,
+#regularTitle158,
+#regularTitle159,
+#regularTitle160,
+#regularTitle161,
+#regularTitle162,
+#regularTitle163,
+#regularTitle164,
+#regularTitle165,
+#regularTitle166,
+#regularTitle167,
+#regularTitle168,
+#regularTitle169,
+#regularTitle170,
+#regularTitle171,
+#regularTitle172,
+#regularTitle173,
+#regularTitle174,
+#regularTitle175,
+#regularTitle176,
+#regularTitle177,
+#regularTitle178,
+#regularTitle179,
+#regularTitle180,
+#regularTitle181,
+#regularTitle182,
+#regularTitle183,
+#regularTitle184,
+#regularTitle185,
+#regularTitle186,
+#regularTitle187,
+#regularTitle188,
+#regularTitle189,
+#regularTitle190,
+#regularTitle191,
+#regularTitle192,
+#regularTitle193,
+#regularTitle194,
+#regularTitle195,
+#regularTitle196,
+#regularTitle197,
+#regularTitle198,
+#regularTitle199,
+#regularTitle200,
+#regularTitle201,
+#regularTitle202,
+#regularTitle203,
+#regularTitle204,
+#regularTitle205,
+#regularTitle206,
+#regularTitle207,
+#regularTitle208,
+#regularTitle209,
+#regularTitle210,
+#regularTitle211,
+#regularTitle212,
+#regularTitle213,
+#regularTitle214,
+#regularTitle215,
+#regularTitle216,
+#regularTitle217,
+#regularTitle218,
+#regularTitle219,
+#regularTitle220,
+#regularTitle221,
+#regularTitle222,
+#regularTitle223,
+#regularTitle224,
+#regularTitle225,
+#regularTitle226,
+#regularTitle227,
+#regularTitle228,
+#regularTitle229,
+#regularTitle230,
+#regularTitle231,
+#regularTitle232,
+#regularTitle233,
+#regularTitle234,
+#regularTitle235,
+#regularTitle236,
+#regularTitle237,
+#regularTitle238,
+#regularTitle239,
+#regularTitle240,
+#regularTitle241,
+#regularTitle242,
+#regularTitle243,
+#regularTitle244,
+#regularTitle245,
+#regularTitle246,
+#regularTitle247,
+#regularTitle248,
+#regularTitle249,
+#regularTitle250,
+#regularTitle251,
+#regularTitle252,
+#regularTitle253,
+#regularTitle254,
+#regularTitle255,
+#regularTitle256,
+#regularTitle257,
+#regularTitle258,
+#regularTitle259,
+#regularTitle260,
+#regularTitle261,
+#regularTitle262,
+#regularTitle263,
+#regularTitle264,
+#regularTitle265,
+#regularTitle266,
+#regularTitle267,
+#regularTitle268,
+#regularTitle269,
+#regularTitle270,
+#regularTitle271,
+#regularTitle272,
+#regularTitle273,
+#regularTitle274,
+#regularTitle275,
+#regularTitle276,
+#regularTitle277,
+#regularTitle278,
+#regularTitle279,
+#regularTitle280,
+#regularTitle281,
+#regularTitle282,
+#regularTitle283,
+#regularTitle284,
+#regularTitle285,
+#regularTitle286,
+#regularTitle287,
+#regularTitle288,
+#regularTitle289,
+#regularTitle290,
+#regularTitle291,
+#regularTitle292,
+#regularTitle293,
+#regularTitle294,
+#regularTitle295,
+#regularTitle296,
+#regularTitle297,
+#regularTitle298,
+#regularTitle299,
+#regularTitle300,
+#regularTitle301,
+#regularTitle302,
+#regularTitle303,
+#regularTitle304,
+#regularTitle305,
+#regularTitle306,
+#regularTitle307,
+#regularTitle308,
+#regularTitle309,
+#regularTitle310,
+#regularTitle311,
+#regularTitle312,
+#regularTitle313,
+#regularTitle314,
+#regularTitle315,
+#regularTitle316,
+#regularTitle317,
+#regularTitle318,
+#regularTitle319,
+#regularTitle320,
+#regularTitle321,
+#regularTitle322,
+#regularTitle323,
+#regularTitle324,
+#regularTitle325,
+#regularTitle326,
+#regularTitle327,
+#regularTitle328,
+#regularTitle329,
+#regularTitle330,
+#regularTitle331,
+#regularTitle332,
+#regularTitle333,
+#regularTitle334,
+#regularTitle335,
+#regularTitle336,
+#regularTitle337,
+#regularTitle338,
+#regularTitle339,
+#regularTitle340,
+#regularTitle341,
+#regularTitle342,
+#regularTitle343,
+#regularTitle344,
+#regularTitle345,
+#regularTitle346,
+#regularTitle347,
+#regularTitle348,
+#regularTitle349,
+#regularTitle350,
+#regularTitle351,
+#regularTitle352,
+#regularTitle353,
+#regularTitle354,
+#regularTitle355,
+#regularTitle356,
+#regularTitle357,
+#regularTitle358,
+#regularTitle359,
+#regularTitle360,
+#regularTitle361,
+#regularTitle362,
+#regularTitle363,
+#regularTitle364,
+#regularTitle365,
+#regularTitle366,
+#regularTitle367,
+#regularTitle368,
+#regularTitle369,
+#regularTitle370,
+#regularTitle371,
+#regularTitle372,
+#regularTitle373,
+#regularTitle374,
+#regularTitle375,
+#regularTitle376,
+#regularTitle377,
+#regularTitle378,
+#regularTitle379,
+#regularTitle380,
+#regularTitle381,
+#regularTitle382,
+#regularTitle383,
+#regularTitle384,
+#regularTitle385,
+#regularTitle386,
+#regularTitle387,
+#regularTitle388,
+#regularTitle389,
+#regularTitle390,
+#regularTitle391,
+#regularTitle392,
+#regularTitle393,
+#regularTitle394,
+#regularTitle395,
+#regularTitle396,
+#regularTitle397,
+#regularTitle398,
+#regularTitle399,
+#regularTitle400,
+#regularTitle401,
+#regularTitle402,
+#regularTitle403,
+#regularTitle404,
+#regularTitle405,
+#regularTitle406,
+#regularTitle407,
+#regularTitle408,
+#regularTitle409,
+#regularTitle410,
+#regularTitle411,
+#regularTitle412,
+#regularTitle413,
+#regularTitle414,
+#regularTitle415,
+#regularTitle416,
+#regularTitle417,
+#regularTitle418,
+#regularTitle419,
+#regularTitle420,
+#regularTitle421,
+#regularTitle422,
+#regularTitle423,
+#regularTitle424,
+#regularTitle425,
+#regularTitle426,
+#regularTitle427,
+#regularTitle428,
+#regularTitle429,
+#regularTitle430,
+#regularTitle431,
+#regularTitle432,
+#regularTitle433,
+#regularTitle434,
+#regularTitle435,
+#regularTitle436,
+#regularTitle437,
+#regularTitle438,
+#regularTitle439,
+#regularTitle440,
+#regularTitle441,
+#regularTitle442,
+#regularTitle443,
+#regularTitle444,
+#regularTitle445,
+#regularTitle446,
+#regularTitle447,
+#regularTitle448,
+#regularTitle449,
+#regularTitle450,
+#regularTitle451,
+#regularTitle452,
+#regularTitle453,
+#regularTitle454,
+#regularTitle455,
+#regularTitle456,
+#regularTitle457,
+#regularTitle458,
+#regularTitle459,
+#regularTitle460,
+#regularTitle461,
+#regularTitle462,
+#regularTitle463,
+#regularTitle464,
+#regularTitle465,
+#regularTitle466,
+#regularTitle467,
+#regularTitle468,
+#regularTitle469,
+#regularTitle470,
+#regularTitle471,
+#regularTitle472,
+#regularTitle473,
+#regularTitle474,
+#regularTitle475,
+#regularTitle476,
+#regularTitle477,
+#regularTitle478,
+#regularTitle479,
+#regularTitle480,
+#regularTitle481,
+#regularTitle482,
+#regularTitle483,
+#regularTitle484,
+#regularTitle485,
+#regularTitle486,
+#regularTitle487,
+#regularTitle488,
+#regularTitle489,
+#regularTitle490,
+#regularTitle491,
+#regularTitle492,
+#regularTitle493,
+#regularTitle494,
+#regularTitle495,
+#regularTitle496,
+#regularTitle497,
+#regularTitle498,
+#regularTitle499,
+#regularTitle500,
+#regularTitle501,
+#regularTitle502,
+#regularTitle503,
+#regularTitle504,
+#regularTitle505,
+#regularTitle506,
+#regularTitle507,
+#regularTitle508,
+#regularTitle509,
+#regularTitle510,
+#regularTitle511,
+#regularTitle512,
+#regularTitle513,
+#regularTitle514,
+#regularTitle515,
+#regularTitle516,
+#regularTitle517,
+#regularTitle518,
+#regularTitle519,
+#regularTitle520,
+#regularTitle521,
+#regularTitle522,
+#regularTitle523,
+#regularTitle524,
+#regularTitle525,
+#regularTitle526,
+#regularTitle527,
+#regularTitle528,
+#regularTitle529,
+#regularTitle530,
+#regularTitle531,
+#regularTitle532,
+#regularTitle533,
+#regularTitle534,
+#regularTitle535,
+#regularTitle536,
+#regularTitle537,
+#regularTitle538,
+#regularTitle539,
+#regularTitle540,
+#regularTitle541,
+#regularTitle542,
+#regularTitle543,
+#regularTitle544,
+#regularTitle545,
+#regularTitle546,
+#regularTitle547,
+#regularTitle548,
+#regularTitle549,
+#regularTitle550,
+#regularTitle551,
+#regularTitle552,
+#regularTitle553,
+#regularTitle554,
+#regularTitle555,
+#regularTitle556,
+#regularTitle557,
+#regularTitle558,
+#regularTitle559,
+#regularTitle560,
+#regularTitle561,
+#regularTitle562,
+#regularTitle563,
+#regularTitle564,
+#regularTitle565,
+#regularTitle566,
+#regularTitle567,
+#regularTitle568,
+#regularTitle569,
+#regularTitle570,
+#regularTitle571,
+#regularTitle572,
+#regularTitle573,
+#regularTitle574,
+#regularTitle575,
+#regularTitle576,
+#regularTitle577,
+#regularTitle578,
+#regularTitle579,
+#regularTitle580,
+#regularTitle581,
+#regularTitle582,
+#regularTitle583,
+#regularTitle584,
+#regularTitle585,
+#regularTitle586,
+#regularTitle587,
+#regularTitle588,
+#regularTitle589,
+#regularTitle590,
+#regularTitle591,
+#regularTitle592,
+#regularTitle593,
+#regularTitle594,
+#regularTitle595,
+#regularTitle596,
+#regularTitle597,
+#regularTitle598,
+#regularTitle599,
+#regularTitle600,
+#regularTitle601,
+#regularTitle602,
+#regularTitle603,
+#regularTitle604,
+#regularTitle605,
+#regularTitle606,
+#regularTitle607,
+#regularTitle608,
+#regularTitle609,
+#regularTitle610,
+#regularTitle611,
+#regularTitle612,
+#regularTitle613,
+#regularTitle614,
+#regularTitle615,
+#regularTitle616,
+#regularTitle617,
+#regularTitle618,
+#regularTitle619,
+#regularTitle620,
+#regularTitle621,
+#regularTitle622,
+#regularTitle623,
+#regularTitle624,
+#regularTitle625,
+#regularTitle626,
+#regularTitle627,
+#regularTitle628,
+#regularTitle629,
+#regularTitle630,
+#regularTitle631,
+#regularTitle632,
+#regularTitle633,
+#regularTitle634,
+#regularTitle635,
+#regularTitle636,
+#regularTitle637,
+#regularTitle638,
+#regularTitle639,
+#regularTitle640,
+#regularTitle641,
+#regularTitle642,
+#regularTitle643,
+#regularTitle644,
+#regularTitle645,
+#regularTitle646,
+#regularTitle647,
+#regularTitle648,
+#regularTitle649,
+#regularTitle650,
+#regularTitle651,
+#regularTitle652,
+#regularTitle653,
+#regularTitle654,
+#regularTitle655,
+#regularTitle656,
+#regularTitle657,
+#regularTitle658,
+#regularTitle659,
+#regularTitle660,
+#regularTitle661,
+#regularTitle662,
+#regularTitle663,
+#regularTitle664,
+#regularTitle665,
+#regularTitle666,
+#regularTitle667,
+#regularTitle668,
+#regularTitle669,
+#regularTitle670,
+#regularTitle671,
+#regularTitle672,
+#regularTitle673,
+#regularTitle674,
+#regularTitle675,
+#regularTitle676,
+#regularTitle677,
+#regularTitle678,
+#regularTitle679,
+#regularTitle680,
+#regularTitle681,
+#regularTitle682,
+#regularTitle683,
+#regularTitle684,
+#regularTitle685,
+#regularTitle686,
+#regularTitle687,
+#regularTitle688,
+#regularTitle689,
+#regularTitle690,
+#regularTitle691,
+#regularTitle692,
+#regularTitle693,
+#regularTitle694,
+#regularTitle695,
+#regularTitle696 {
+  display: block !important;
+}
+/* GENERAL */
+
+/* Limit page to 640 by 480 (NTSC TV resolution) */
+/* Note: PAL resolution is 640 by 528 */
+body {
+	/*width: 608px; height: 456px; */
+	background-repeat: no-repeat;
+	background-color: #FFFFFF; 
+}
+
+FORM { display: inline; } 
+
+/* PROGRESS BAR */
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+
+
+.bold {
+	font-weight: bold;
+}
+.titleBlackL {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 28px;
+	color: #323232;
+	font-weight: bold;
+}
+.titleBlackM {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 24px;
+	color: #323232;
+	font-weight: bold;
+}
+.titleBlackS {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 18px;
+	color: #323232;
+	font-weight: bold;
+    line-height:22px;
+}
+.titleBlueL {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 28px;
+	color: #34BEED;
+	font-weight: bold;
+}
+
+.headerBlueL {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 20px;
+	color: #34BEED;
+	font-weight: bold;
+}
+.headerBlueM {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 16px;
+	color: #34BEED;
+	font-weight: bold;
+}
+.headerBlueM_01 {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 16px;
+	color: #34BEED;
+	font-weight: bold;
+}
+.headerBlueS {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 14px;
+	color: #34BEED;
+	font-weight: bold;
+}
+.headerWhiteM {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 16px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.headerWhiteS {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.buttonTextBlackM {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 18px;
+	color: #323232;
+	font-weight: normal;
+}
+.buttonTextBlackL {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 22px;
+	color: #323232;
+	font-weight: normal;
+}
+.buttonTextWhiteL {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 24px;
+	color: #FFFFFF;
+	font-weight: normal;
+}
+.buttonTextWhiteS {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.buttonTextWhiteS_01 {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.warningRed {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 22px;
+	color: #FF0000;
+	font-weight: normal;
+	line-height:25px;
+}
+.contentsRedM {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 16px;
+	color: #FF0000;
+	font-weight: normal;
+}
+
+.contentsBlack {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 14px;
+	color: #323232;
+	font-weight: normal;
+	line-height:16px;
+}
+
+.contentsBlackL {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 20px;
+	color: #323232;
+	font-weight: normal;
+}
+.contentsBlackM {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 18px;
+	color: #323232;
+	font-weight: normal;
+}
+.contentsBlackS {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 16px;
+	color: #323232;
+	font-weight: normal;
+}
+.contentsBlackS_01 {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 16px;
+	color: #323232;
+	font-weight: normal;
+}
+
+.contentsBlueM {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 18px;
+	color: #34BEED;
+	font-weight: normal;
+}
+.contentsBlueS {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 14px;
+	color: #34BEED;
+	font-weight: normal;
+}
+.contentsBlueS_01 {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 14px;
+	color: #34BEED;
+	font-weight: normal;
+}
+
+.contentsGray {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 16px;
+	color: #8C8C8C;
+	font-weight: normal;
+}
+.contentsGrayL {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 20px;
+	color: #8C8C8C;
+	font-weight: normal;
+}
+.contentsGrayM {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 18px;
+	color: #8C8C8C;
+	font-weight: normal;
+}
+.contentsGrayS {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 16px;
+	color: #8C8C8C;
+	font-weight: normal;
+}
+.contentsOrangeL {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 20px;
+	color: #AA4941;
+	font-weight: normal;
+}
+.contentsOrangeM {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 16px;
+	color: #AA4941;
+	font-weight: normal;
+}
+.contentsOrangeS {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 14px;
+	color: #AA4941;
+	font-weight: normal;
+}
+
+
+.catalogTitleBlack {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 16px;
+	color: #323232;
+	font-weight: normal;
+	line-height: 18px;
+}
+
+.catalogTitleBlack_01 {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 16px;
+	color: #323232;
+	font-weight: normal;
+	line-height: 18px;
+}
+.catalogTitleBlack_02 {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 16px;
+	color: #323232;
+	font-weight: normal;
+	line-height: 18px;
+}
+.catalogTitleBlack_03 {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 16px;
+	color: #323232;
+	font-weight: normal;
+	line-height: 22px;
+}
+.catalogTitleBlack_04 {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 18px;
+	color: #323232;
+	font-weight: normal;
+	line-height: 22px;
+}
+
+.catalogTitleBlackBold {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 16px;
+	color: #323232;
+	font-weight: bold;
+}
+.catalogTitleBlue {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 16px;
+	color: #34BEED;
+	font-weight: normal;
+}
+.catalogTitleBlueBold {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 16px;
+	color: #34BEED;
+	font-weight: bold;
+}
+.wiiPoint {
+	/* style for current balance */
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 22px;
+	color: #34BEED;
+	font-weight: normal;
+}
+
+.fullScreenText {
+    position:absolute;
+    left:66px;
+    top:85px;
+    width:476px;
+    height:202px;
+}
+
+#underButtonR {
+	position:absolute;
+	left:399px;
+	top:378px;
+	width:187px;
+	height:55px;
+}
+#underButtonL {
+	position:absolute;
+	left:25px;
+	top:378px;
+	width:187px;
+	height:55px;
+}
+#underButton {
+	position:absolute;
+	left:211px;
+	top:294px;
+	width:187px;
+	height:55px;
+}
+
+.buttonBanner {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	z-index:22;
+}
+.buttonSpacer {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	z-index:25;
+}
+.buttonWord {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	line-height:19px;
+	z-index:24;
+}
+.buttonBannerShadow {
+	position:absolute;
+	left:-12px;
+	top:-9px;
+	width:211px;
+	height:75px;
+	z-index:20;
+}
+
+.tcell {
+    display:table-cell;
+}
+
+.h_inline_middle {
+    text-align:center;
+    width:auto;
+    height:auto;
+}
+
+.h_block_middle {
+    margin-left:auto;
+    margin-right:auto;
+    width:auto;
+    height:auto;
+}
+
+.v_middle {
+    vertical-align:middle;
+    width:auto;
+    height:auto;
+}
+
+.vh_inline_middle {
+    text-align:center;
+    vertical-align:middle;
+    width:auto;
+    height:auto;
+}
+
+.h_inline_left {
+    text-align:left;
+    width:auto;
+    height:auto;
+}
+
+.v_middle_h_inline_left {
+    text-align:left;
+    vertical-align:middle;
+    width:auto;
+    height:auto;
+}
+
+#Wiipoint {
+	/* location of "Wii Points" the word */
+	text-align:center;
+	position:absolute;
+	left:241px;
+	/* //top:396px; */
+	top:401px;
+	width:130px;
+	height:20px;
+	z-index:22;
+}
+
+#point {
+	/* location of current balance */
+	text-align:center;
+	position:absolute;
+	left:241px;
+	top:378px;
+	width:130px;
+	height:22px;
+	z-index:97;
+}
+.dot {
+	font-family: "Wii NTLG PGothic JPN Regular";
+	font-size: 16px;
+	color: #8C8C8C;
+}
+
+#help {
+	position:absolute;
+	left:537px;
+	top:23px;
+	width:52px;
+	height:55px;
+	z-index:100;
+}
+#top {
+	position:absolute;
+	left:477px;
+	top:23px;
+	width:52px;
+	height:55px;
+	z-index:100;
+}
+#line01 {
+	position:absolute;
+	left:4px;
+	top:59px;
+	width:473px;
+	height:10px;
+	z-index:98;
+}
+#line02 {
+	position:absolute;
+	left:4px;
+	top:363px;
+	width:600px;
+	height:10px;
+	/* //z-index:21; */
+	z-index:100;
+}
+#upperLineLong {
+	position:absolute;
+	left:4px;
+	top:59px;
+	width:600px;
+	height:10px;
+	/* //z-index:21; */
+	z-index:100;
+}
+#tophelpshadow {
+	position:absolute;
+	left:467px;
+	top:15px;
+	width:132px;
+	height:75px;
+	z-index:24;
+}
+
+.inputStyle {
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #EAEAEA;
+	border-left-color: #CCCCCC;	
+}
+
+.spacecover {
+    left:0px;
+    top:0px;
+    width:100%;
+    height:100%;
+}
+
+div.page_area {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 608px;
+        height: 363px;
+}
+
+div.page_title_area {
+	position: relative;
+	left: 29px;
+	top: 28px;
+	width: 442px;
+	height: 28px;
+	text-align: left;
+}
+
+div.page_content_area {
+	position: relative;
+	top: 75px;
+	left: 20px;
+	text-align: center;
+	width: 548px;
+}
+
+.bg_connect {
+	background-image: url(../images/back/bg_connect.gif);
+	background-repeat: no-repeat;
+}
+
+.bg_sca {
+	background-image: url(../images/back/bg_sca.gif);
+	background-repeat: no-repeat;
+}
+
+span.font14px{ font-size: 14px; }
+span.font16px{ font-size: 16px; }
+span.font18px{ font-size: 18px; }
+span.font20px{ font-size: 20px; }
+span.font22px{ font-size: 22px; }
+span.font24px{ font-size: 24px; }
+
+
